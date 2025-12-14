@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL ?? "http://127.0.0.1:8000";
+const API_URL = import.meta.env.VITE_API_BASE_URL ?? "https://hulpwijzer-backend.up.railway.app";
 
 export async function sendChat(sessionId: string, message: string) {
   // Keep compatibility with your existing backend signature:
